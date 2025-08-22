@@ -8,7 +8,7 @@ defaultAttempts = 3
 def setFailedAttempts(attempts):
     global defaultAttempts
     defaultAttempts = attempts
-    return attempts
+    
 
 def login():
     user_name = "admin"
@@ -24,5 +24,7 @@ def login():
         else:
             print(f"Login failed. You have {failed_attempts} attempts left.")
 
-login()
+# login() 
+# Issued solved the 2 times login issue. in the first attempt.
+# The issue was due to calling login() function twice in main.py
 
