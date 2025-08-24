@@ -1,0 +1,85 @@
+Data structure is a named location that can be used to store and organize data.
+
+Example: Family tree
+
+Different data structure creates different way to store and organize data.
+
+Data structure is like a raw material for building something. Programmers need to pick the right materials to build a project.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Yes, the names for various data structures can differ between programming languages, but their core functionalities and principles generally remain the same. The terminology might vary, but the underlying concepts and operations are similar. Here’s a summary comparing some common data structures across different programming languages:
+
+For Array:
+In python is called list. In Java is called...
+
+Python: list (dynamic array with additional functionalities)
+Java: Array (fixed size), ArrayList (dynamic array)
+C++: array (fixed size), vector (dynamic array)
+JavaScript: Array
+
+
+Hash Table:
+
+Python: dict
+Java: HashMap, Hashtable
+C++: unordered_map
+JavaScript: Object (used as a map), Map
+
+
+Linked List:
+
+Python: Implemented manually using class
+Java: LinkedList
+C++: list
+JavaScript: Implemented manually using class
+
+
+
+Stack:
+
+Python: list (using append and pop), collections.deque
+Java: Stack, ArrayDeque
+C++: stack
+JavaScript: Array (using push and pop)
+
+
+
+Queue:
+
+Python: collections.deque, queue.Queue
+Java: Queue (interface), LinkedList (class implementing Queue)
+C++: queue
+JavaScript: Array (using push and shift)
+
+
+
+Set:
+
+Python: set
+Java: HashSet, TreeSet
+C++: set, unordered_set
+JavaScript: Set
+
+
+
+Tree:
+
+Python: Implemented manually using class, collections.defaultdict for simple trees
+Java: TreeMap, TreeSet for specific tree implementations
+C++: map (Red-Black Tree), set (Red-Black Tree)
+JavaScript: Implemented manually using class
+
+
+
+
+
+
+
+
+
+
+
+
+
+

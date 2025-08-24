@@ -1,0 +1,98 @@
+Why Different Types Matter
+Imagine you have different tasks, like:
+
+Looking for your favorite toy.
+Sorting all your toys.
+Finding two toys that look the same.
+Arranging all toys in different ways.
+
+
+
+For each task, some methods are faster than others. Here’s why the different Big O types matter:
+
+O(1) is great because it's always fast.
+O(n) is okay for small to medium tasks.
+O(log n) is very efficient for large tasks.
+O(n^2) can be very slow for large tasks.
+O(2^n) is impractically slow for even moderately sized tasks.
+Practical Scenario
+
+
+
+Let's say you have a lot of toys:
+
+If you just need to grab one specific toy quickly, you want an O(1) method.
+If you need to go through each toy, you use an O(n) method.
+If you can eliminate half the toys at each step (like in a sorted list), O(log n) is fantastic.
+If you need to check every pair of toys, O(n^2) might be necessary but slow.
+If you want to try every possible arrangement, O(2^n) is usually too slow.
+--------------------------------------------------------------------------------------------------
+
+O(1): constant time
+If you have: 
+ - random access of an element in an array
+ - inserting at the beginning of linkedlist
+
+
+--------------------------------------------------------
+
+O(log n): logarithmic time. In short, an algorithm with a complexity of O(log n) becomes more efficient as the size of the dataset (number of toys, for example) increases. This is because it can quickly narrow down the search space, making it much faster than algorithms with linear or quadratic time complexity for large datasets.
+
+If you have:
+ - binary search
+
+
+--------------------------------------------------------
+
+O(n): linear time
+If you have:
+ - looping through elements in an array
+ - searching through a linkedlist
+
+
+--------------------------------------------------------
+
+O(n log n): quasilinear time
+If you have:
+ - quicksort
+ - mergesort
+ - heapsort
+
+--------------------------------------------------------
+
+O(n^2): quadratic time. Extremely slow with large data set cuz 'n' represents the amount of data, and since it is squared, it's gonna take way longer. It is probably best to use with small data sets.
+If you have:
+ - insertion sort
+ - selection sort
+ - bubblesort
+
+
+--------------------------------------------------------
+
+O(n!): Factorial time. SUPER SLOWWW
+If you have:
+ - travelling salesman problem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

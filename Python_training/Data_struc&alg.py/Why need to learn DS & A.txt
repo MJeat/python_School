@@ -1,0 +1,2 @@
+1. You'll write code that is both time and memory efficient
+2. Commonly asked question involve DS & A in coding job interview
