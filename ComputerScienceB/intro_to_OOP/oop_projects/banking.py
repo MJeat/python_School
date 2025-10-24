@@ -1,5 +1,7 @@
 
 '''
+This is a solo work.
+
 The program belows implements a simple banking system with two classes: Account and SavingsAccount. 
 1. The Account class represents a basic bank account with attributes such as id, balance, and annual interest rate. It provides methods to get and set these attributes, calculate monthly interest, and perform withdrawals and deposits.
 2. The SavingsAccount class inherits from the Account class and adds additional attributes for minimum balance and penalty fee
